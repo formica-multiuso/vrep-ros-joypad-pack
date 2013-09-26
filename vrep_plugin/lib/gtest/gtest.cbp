@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="gtest" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\usr\src\;CMake Files\..\..\..\..\..\..\usr\src\gtest\;CMake Files\..\..\..\..\..\..\usr\src\gtest\cmake\;CMake Files\..\..\ros\;CMake Files\..\..\ros\core\;CMake Files\..\..\ros\core\rosbuild\;CMake Files\..\..\catkin\;CMake Files\..\..\catkin\cmake\;CMake Files\..\..\catkin\cmake\platform\;CMake Files\..\..\catkin\cmake\test\;CMake Files\..\..\catkin\cmake\tools\;CMake Files\..\..\catkin\cmake\..\;CMake Files\..\..\catkin\cmake\templates\;CMake Files\..\..\catkin\cmake\env-hooks\;CMake Files\..\..\rosunit\;CMake Files\..\..\rosunit\cmake\;CMake Files\..\..\roslib\;CMake Files\..\..\roslib\cmake\;CMake Files\..\..\roslang\;CMake Files\..\..\roslang\cmake\;CMake Files\..\..\genmsg\;CMake Files\..\..\genmsg\cmake\;CMake Files\..\..\gencpp\;CMake Files\..\..\gencpp\cmake\;CMake Files\..\..\genlisp\;CMake Files\..\..\genlisp\cmake\;CMake Files\..\..\genpy\;CMake Files\..\..\genpy\cmake\;CMake Files\..\..\roslisp\;CMake Files\..\..\roslisp\rosbuild\;CMake Files\..\..\roscpp\;CMake Files\..\..\roscpp\rosbuild\;CMake Files\..\..\rospy\;CMake Files\..\..\rospy\rosbuild\;CMake Files\lib\;CMake Files\lib\catkin\;CMake Files\lib\catkin\catkin_generated\;CMake Files\lib\catkin\catkin_generated\version\;CMake Files\lib\catkin_generated\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest">
+         <Option output="/opt/ros/hydro/share/vrep/vrep_plugin/lib/libgtest.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGTEST_CREATE_SHARED_LIBRARY=1" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/opt/ros/hydro/share/vrep/vrep_plugin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.7" />
+            <Add directory="/usr/include/c++/4.7/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.7/." />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.7/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/src/gtest" />
+            <Add directory="/usr/src/gtest/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 gtest" />
+            <CompileFile command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest/fast">
+         <Option output="/opt/ros/hydro/share/vrep/vrep_plugin/lib/libgtest.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGTEST_CREATE_SHARED_LIBRARY=1" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/opt/ros/hydro/share/vrep/vrep_plugin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.7" />
+            <Add directory="/usr/include/c++/4.7/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.7/." />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.7/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/src/gtest" />
+            <Add directory="/usr/src/gtest/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 gtest/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest_main">
+         <Option output="/opt/ros/hydro/share/vrep/vrep_plugin/lib/libgtest_main.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGTEST_CREATE_SHARED_LIBRARY=1" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/opt/ros/hydro/share/vrep/vrep_plugin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.7" />
+            <Add directory="/usr/include/c++/4.7/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.7/." />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.7/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/src/gtest" />
+            <Add directory="/usr/src/gtest/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 gtest_main" />
+            <CompileFile command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="gtest_main/fast">
+         <Option output="/opt/ros/hydro/share/vrep/vrep_plugin/lib/libgtest_main.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DGTEST_CREATE_SHARED_LIBRARY=1" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/opt/ros/hydro/share/vrep/vrep_plugin/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.7" />
+            <Add directory="/usr/include/c++/4.7/backward" />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.7/." />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.7/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.7/include-fixed" />
+            <Add directory="/usr/local/include" />
+            <Add directory="/usr/src/gtest" />
+            <Add directory="/usr/src/gtest/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 gtest_main/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/opt/ros/hydro/share/vrep/vrep_plugin/lib/gtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/usr/src/gtest/src/gtest-all.cc">
+      </Unit>
+      <Unit filename="/usr/src/gtest/src/gtest_main.cc">
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../../../../../usr/src/gtest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\src\gtest\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../../../../../usr/src/gtest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\src\gtest\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../../../../../usr/src/gtest/cmake/internal_utils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\src\gtest\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../../../../../usr/src/gtest/cmake/internal_utils.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\..\..\..\usr\src\gtest\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../ros/core/rosbuild/rosbuild.cmake">
+          <Option virtualFolder="CMake Files\..\..\ros\core\rosbuild\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../ros/core/rosbuild/private.cmake">
+          <Option virtualFolder="CMake Files\..\..\ros\core\rosbuild\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../ros/core/rosbuild/public.cmake">
+          <Option virtualFolder="CMake Files\..\..\ros\core\rosbuild\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../ros/core/rosbuild/ProcessorCount.cmake">
+          <Option virtualFolder="CMake Files\..\..\ros\core\rosbuild\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../ros/core/rosbuild/rosconfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\ros\core\rosbuild\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/all.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/assert.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/catkin_add_env_hooks.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/catkin_destinations.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/catkin_generate_environment.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/catkin_metapackage.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/catkin_package.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/catkin_package_xml.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/catkin_workspace.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/debug_message.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/em_expand.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/python.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/empy.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/find_program_required.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/legacy.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/list_append_unique.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/list_insert_in_workspace_order.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/parse_arguments.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/safe_execute_process.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/stamp.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/catkin_python_setup.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/interrogate_setup_dot_py.py">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/catkinConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/catkinConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/platform/lsb.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\platform\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/platform/ubuntu.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\platform\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/platform/windows.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\platform\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/test/tests.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\test\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/test/catkin_download_test_data.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\test\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/test/download_test_data.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\test\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/test/gtest.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\test\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/test/nosetests.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\test\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/tools/doxygen.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\tools\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/tools/libraries.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\tools\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/tools/rt.cmake">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\tools\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/../package.xml">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\..\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/templates/_setup_util.py.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/templates/env.sh.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/templates/setup.bash.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/templates/setup.sh.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/templates/setup.zsh.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/templates/rosinstall.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/templates/_setup_util.py.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/templates/env.sh.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/templates/setup.bash.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/templates/setup.sh.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/templates/setup.zsh.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/templates/rosinstall.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/templates/generate_cached_setup.py.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/templates/env.sh.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\templates\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../catkin/cmake/env-hooks/05.catkin-test-results.sh.develspace.in">
+          <Option virtualFolder="CMake Files\..\..\catkin\cmake\env-hooks\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../rosunit/cmake/rosunitConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\rosunit\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../rosunit/cmake/rosunitConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\rosunit\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../rosunit/cmake/rosunit-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\rosunit\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../roslib/cmake/roslibConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../roslib/cmake/roslibConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../roslib/cmake/roslib-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\roslib\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../roslang/cmake/roslang.cmake">
+          <Option virtualFolder="CMake Files\..\..\roslang\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../genmsg/cmake/genmsgConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../genmsg/cmake/genmsgConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../genmsg/cmake/genmsg-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../genmsg/cmake/genmsgConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../genmsg/cmake/genmsgConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\genmsg\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../gencpp/cmake/gencppConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../gencpp/cmake/gencppConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../gencpp/cmake/gencpp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\gencpp\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../genlisp/cmake/genlispConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../genlisp/cmake/genlispConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../genlisp/cmake/genlisp-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\genlisp\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../genpy/cmake/genpyConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../genpy/cmake/genpyConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../genpy/cmake/genpy-extras.cmake">
+          <Option virtualFolder="CMake Files\..\..\genpy\cmake\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../roslisp/rosbuild/roslisp.cmake">
+          <Option virtualFolder="CMake Files\..\..\roslisp\rosbuild\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../roscpp/rosbuild/roscpp.cmake">
+          <Option virtualFolder="CMake Files\..\..\roscpp\rosbuild\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/../../rospy/rosbuild/rospy.cmake">
+          <Option virtualFolder="CMake Files\..\..\rospy\rosbuild\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/lib/catkin/catkin_generated/version/package.cmake">
+          <Option virtualFolder="CMake Files\lib\catkin\catkin_generated\version\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/lib/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\lib\catkin_generated\" />
+      </Unit>
+      <Unit filename="/opt/ros/hydro/share/vrep/vrep_plugin/lib/catkin_generated/ordered_paths.cmake">
+          <Option virtualFolder="CMake Files\lib\catkin_generated\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>
